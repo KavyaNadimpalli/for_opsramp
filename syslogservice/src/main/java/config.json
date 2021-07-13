@@ -1,0 +1,17 @@
+{
+	"listener": {
+		"port": 25000,
+		"pathPrefix": "",
+		"channels": {
+			"listensOn": [
+				{
+					"ackWaitInSecs": 60,
+					"maxInflight": 25,
+					"maxRetries": 5,
+					"name": "syslogservice"
+				}
+			],
+			"publishesTo": []
+		}
+	}
+}
